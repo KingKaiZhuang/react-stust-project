@@ -93,7 +93,7 @@ function ResponsiveAppBar() {
                   <Typography textAlign="center">
                     <Link
                       style={{ textDecoration: "none", color: "inherit" }}
-                      to={`/${page}`}
+                      to={`/react-stust-project/${page}`}
                     >
                       {page}
                     </Link>
@@ -130,7 +130,7 @@ function ResponsiveAppBar() {
               >
                 <Link
                   style={{ textDecoration: "none", color: "white" }}
-                  to={`/${page}`}
+                  to={`/react-stust-project/${page}`}
                 >
                   {page}
                 </Link>

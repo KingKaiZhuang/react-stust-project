@@ -9,10 +9,19 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={<h1>hi</h1>} />
-        <Route path="color-panel" element={<ColorPanelView />} />
-        <Route path="calculator" element={<CalculatorView />} />
-        <Route path="tic-tac-toe" element={<TicTacToe />} />
+        <Route path="/react-stust-project" element={<h1>hi</h1>} />
+        <Route
+          path="/react-stust-project/color-panel"
+          element={<ColorPanelView />}
+        />
+        <Route
+          path="/react-stust-project/calculator"
+          element={<CalculatorView />}
+        />
+        <Route
+          path="/react-stust-project/tic-tac-toe"
+          element={<TicTacToe />}
+        />
       </Routes>
     </div>
   );
